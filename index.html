@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="l_sidebar">
+            <div class="logo_container"><img src="/img/triage2.png" alt=""></div>
+        </div>
+
+        <div class="signup_page">
+            <div class="signup_text">
+                <h2>Is your business experiencing <i>'death by a thousand cuts'</i>?</h2>
+                <h3>Sign up for the best ticketing software on the market and
+                    <u>stop the bleeding.</u>
+                </h3>
+            </div>
+            <div class="form_container">
+                <form id="signup_form" action="#" method="#" class="signup_form">
+                    <legend>Heal <i>your</i> business</legend>
+                    <div class="names">
+                        <div class="input_container">
+                            <label for="first_name">First Name</label>
+                            <input minlength="4" maxlength="20" type="text" name="first_name" id="first_name" required>
+                        </div>
+
+                        <div class="input_container">
+                            <label for="last_name">Last Name</label>
+                            <input minlength="4" maxlength="20" type="text" name="last_name" id="last_name" required>
+                        </div>
+                    </div>
+                    <div class="email_phone">
+                        <div class="input_container">
+                            <label for="phone">Phone Number</label>
+                            <input minlength="10" max="11" type="tel" name="phone" id="phone" required>
+                        </div>
+                        <div class="input_container">
+    
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="passwords">
+
+                        <div class="input_container">
+                            <label for="password_one">Password</label>
+                            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" type="password" name="password_one" id="password_one" class="pwd_input" required>
+                        </div>
+
+                        <div class="input_container">
+                            <label for="password_two">Password</label>
+                            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" type="password" name="password_two" id="password_two" class="pwd_input" required>
+                        </div>
+                    </div> 
+                    <p class="pwd_format">* Passwords must contain one lower-case, one upper-case and a number</p>                   
+                </form>
+               
+            </div>
+            <div class="account_container">
+                <button form="signup_form" type="submit">Create Account</button>
+                <p class="login">Already have an account? <a href="#">Log in</a></p>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
