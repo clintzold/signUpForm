@@ -46,6 +46,10 @@ h2, h3, label {
     
 }
 
+label {
+    font-size: 0.75em;
+}
+
 button, legend {
     font-family: "exo";
     font-weight: bold;
@@ -168,3 +172,8 @@ a {
     text-decoration: none;
     color: grey;
 }
+
+#password_two {
+    opacity: 0.1;
+}
+
