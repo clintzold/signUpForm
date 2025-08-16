@@ -29,7 +29,7 @@ body {
 }
 .l_sidebar {
     width: 30%;
-    background-image: url("/img/milad-fakurian-_zSZVxZWhkY-unsplash.jpg");
+    background-image: url("./img/milad-fakurian-_zSZVxZWhkY-unsplash.jpg");
     background-position-x: center;
     background-position-y: center;
     background-size: 900px;
